@@ -3,7 +3,7 @@ Basic Page Styles
 *********************************/
 
 body {
-  margin: 0;
+  margin: 0 0 30px;
   font-family: verdana, sans-serif;
   font-size: 1em;
   background: url("../pics/stars.png") top left repeat;
