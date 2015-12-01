@@ -1,0 +1,95 @@
+/*********************************
+Basic Page Styles
+*********************************/
+
+body {
+  margin: 0;
+  font-family: verdana, sans-serif;
+  font-size: 1em;
+  background: url("../pics/stars.png") top left repeat;
+}
+#wrapper {
+  width: 920px;
+  margin: 0 auto;
+}
+
+
+/*********************************
+Header
+*********************************/
+
+#header {
+  float: left;
+  margin: 20px 0;
+  width: 100%;
+  color: white;
+}
+
+#header {
+  float: left;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+/*********************************
+Primary navigation
+*********************************/
+
+#nav1 {
+  margin-top: 20px;
+  list-style: none;
+  float: right;
+}
+
+#nav1 li {
+  float: left;
+  list-style: none;
+  margin-left: 20px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-radius: 5px;
+  background: white;
+}
+#nav1 a {
+  color: black ;
+  text-decoration: none; 
+}
+/*********************************
+Secondary navigation
+*********************************/
+#nav2 {
+  float: left;
+  width: 25%;
+  background-color: white;
+  border-radius: 4px;
+}
+
+#nav2 li {
+  list-style: none;
+  text-decoration: none;
+}
+
+#nav2 h2 {
+  margin-left: 15%;
+}
+/*********************************
+Content
+*********************************/
+
+#content img {
+  max-width: 100%;
+  float:  right;
+  padding: 0 2% 0 2% ;
+  border-radius: 50%;
+}
+
+#content {
+  float: left;
+  margin: 0 2% 0 0;
+  background: #39ADD1;
+  width: 69%;
+  background-color: white;
+  padding: 0% 2% 2% 2%;
+  border-radius: 4px;
+}
