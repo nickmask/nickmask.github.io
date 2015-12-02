@@ -12,8 +12,6 @@ body {
   width: 920px;
   margin: 0 auto;
 }
-
-
 /*********************************
 Header
 *********************************/
@@ -92,4 +90,18 @@ Content
   background-color: white;
   padding: 0% 2% 2% 2%;
   border-radius: 4px;
+}
+/*********************************
+To-do list
+*********************************/
+#content li input {
+  display: none;
+}
+
+#content li.edit span {
+  display: none;
+}
+
+#content li.edit input {
+  display: initial;
 }
