@@ -8,7 +8,6 @@ for (var i = 0; i < items.length; i++) {
   items[i].addEventListener("click", editItem);
   inputs[i].addEventListener("blur", updateItem);
   inputs[i].addEventListener("keypress", itemKeypress);
-
 }
 
 function editItem() {
@@ -27,5 +26,5 @@ function itemKeypress(event) {
   if (event.which === 13) {
     updateItem.call(this);
   }
-
 }
+
