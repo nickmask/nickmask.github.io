@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta char="utf-8">
+    <meta charset="utf-8">
     <title>Nick's Page</title>
     <link href="/styles/main.css" rel="stylesheet" type="text/css">
-
   </head>
   <body>
-    <div id="wrapper">
-      <div id="header">
-        <nav id="nav1" class="mainNav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../projects/to-do.html">To-do list</a></li>
-            <li><a href="#">Contact</a></li>
-        </nav>
-        <h1>Nick's Blog and Stuff</h1>
-      </div>
+   <header>
+        <div class="row" ID="nav">
+          <div class="col-6" ID="title">
+            <h1>BLOG n' SHIT</h1><h2>by nick</h2>
+          </div>
+          <div class="col-6">
+            <nav id="primary_nav_wrap">
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li id="projects"><a href="../projects/to-do.html">Projects</a>
+                  <ul>
+                    <li><a href="../projects/to-do.html">To-do list</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="current-menu-item"><a href="#">Blog</a>
+                  <ul>
+                    <li><a href="/blog/c4-time-and-habits-blog.html">Time and Habits</a></li>
+                    <li><a href="/blog/c4-reflection-blog.html">EDA Reflection</a></li>
+                    <li><a href="/blog/t2-html-css-dom-p1.html">HTML, CSS and Dom P1</a></li>
+                    <li><a href="/blog/t2-html-css-dom-p2.html">HTML, CSS and Dom P2</a></li>
+                    <li><a href="/blog/c2-emotional-intelligence.html">Emotional Intellegence</a></li>                   
+                  </ul>
+                </li>
+              </ul>
+            </nav>
 
-      <div id="content">
-        <h2>Time and habit techniques</h2>
-        <p><b>What did you find interesting?</b></p>
+          </div>
+        </div>
+      </header>
+    <div class="col-12 contentBanner" ><h1>Time and habit techniques</h1><h2>Time to get some habits</h2></div>
+      <div class="grid mainContent">
+        <div class="col-12 mainContent">
+          <h2>What did you find interesting?</h2>
           <p>I would like to experiement more with the Pomodoro technique. I like the way it works and it actually reminds me of scrum with the way you split tasks up and assign "Pomodoros" to them.</p>
-        <p><b>What worked for you?</b></p>
-        <p>One technique that I have found to be really good when distracted is to take 10 and practice my mindfullness. I was able to come back focused on the task and push through!</p>
-       <p> <b>Which will you experiment further with?</b></p>
-       <p>
-        I think in future I will try the follow techniques:<br>- Ask youself 4 questions a day: In the morning "What are my goals?", "What are my challenges today?" and at the end of te day "Have I reached my goals today", "What have I learnt today?"<br>
-        - The Pomodoro technique<br>
-        - The Fogg method<br>
-        - Getting in the zone training
-        </p>
+          <h2>What worked for you?</h2>
+          <p>One technique that I have found to be really good when distracted is to take 10 and practice my mindfullness. I was able to come back focused on the task and push through!</p>
+          <h2>Which will you experiment further with?</h2>
+          <p>
+          I think in future I will try the follow techniques:<br>- Ask youself 4 questions a day: In the morning "What are my goals?", "What are my challenges today?" and at the end of te day "Have I reached my goals today", "What have I learnt today?"<br>
+          - The Pomodoro technique<br>
+          - The Fogg method<br>
+          - Getting in the zone training
+          </p>  
+        </div>
       </div>
-      <nav id="nav2">
-        <h2>Blog posts</h2>
-        <ul>
-          <li><a href="/blog/c4-time-and-habits-blog.html">Time and Habits</a></li>
-          <li><a href="/blog/c4-reflection-blog.html">EDA Reflection</a></li>
-          <li><a href="/blog/t2-html-css-dom-p1.html">HTML, CSS and Dom</a></li>
-          <li><a href="/blog/t2-html-css-dom-p2.html">HTML, CSS and Dom</a></li>
-          <li><a href="/blog/c2-emotional-intelligence.html">HTML, CSS and Dom</a></li> 
-        </ul>
-      </nav>
-
-    </div>
+      <div id="footer">This blog is not copywrited. Please feel free to steal anything.</div>
   </body>
 </html>

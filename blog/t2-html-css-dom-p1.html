@@ -7,48 +7,57 @@
 
   </head>
   <body>
-    <div id="wrapper">
-      <div id="header">
-        <nav id="nav1" class="mainNav">
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../projects/to-do.html">To-do list</a></li>
-            <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <h1><a class="link link--kukuri" href="#" data-letters="Nick's Site">Nick's Site</a>
-</h1>
-      </div>
+   <header>
+        <div class="row" ID="nav">
+          <div class="col-6" ID="title">
+            <h1>BLOG n' SHIT</h1><h2>by nick</h2>
+          </div>
+          <div class="col-6">
+            <nav id="primary_nav_wrap">
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li id="projects"><a href="../projects/to-do.html">Projects</a>
+                  <ul>
+                    <li><a href="../projects/to-do.html">To-do list</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="current-menu-item"><a href="#">Blog</a>
+                  <ul>
+                    <li><a href="/blog/c4-time-and-habits-blog.html">Time and Habits</a></li>
+                    <li><a href="/blog/c4-reflection-blog.html">EDA Reflection</a></li>
+                    <li><a href="/blog/t2-html-css-dom-p1.html">HTML, CSS and Dom P1</a></li>
+                    <li><a href="/blog/t2-html-css-dom-p2.html">HTML, CSS and Dom P2</a></li>
+                    <li><a href="/blog/c2-emotional-intelligence.html">Emotional Intellegence</a></li>                   
+                  </ul>
+                </li>
+              </ul>
+            </nav>
 
-      <div id="content">
-        <h2>HTML, CSS and DOM</h2>
-        <h3>Feature wish list</h3>
-        <p>The top menu bar from the bootstrap website <a href="http://getbootstrap.com/getting-started/#download">www.getbootstrap.com</a></p>
-        <p> Add different col numbers similar to Awwwards  <a href="http://www.awwwards.com/web-design-awards/admir-hadzic-portfolio-3">www.awwwards.com</a></p>
-        <p> Add pop up to the side to try and redirect people to a virus download <a href="http://dailytekk.com/2015/01/01/the-100-best-most-interesting-blogs-and-websites-of-2015/#awesome">www.dailytekk.com</a></p>
-        <p>Create page of all blog posts similar to Genius <a href="http://genius.com/">www.genius.com</a></p>
-        <h3>Describing HTML, CSS and DOM</h3>
-        <p>HTML is the content on your page. Any text, images blogs etc will all be in your HTML.</p>
-        <p>CSS is the styling that is layed out on top of your content. Without CSS a website is just text with no background and look and feel to it.</p>
-        <p> DOM is where each element of your websites site. You can think of it as a family tree. This helps when controling elements as some inherit traits, just like people. </p>
-        <h3>Boxify</h3>
-        <p>Boxify is when you put a website up into all the boxes that are used to create it. This is helpful when taking an image or another website and redesigning it.</p>
-        <h3> The Box Model</h3>
-        <p>The box model refers to how in CSS we don't just have content, that content has padding then a boarder and then margin as shown in this picture:
-        <img src="http://www.w3schools.com/css/box-model.gif" alt="The box model">
+          </div>
+        </div>
+      </header>
+    <div class="col-12 contentBanner" ><h1>HTML, CSS and DOM - Part 1</h1><h2>CSS, huh? HTML, what? DOM?!?!</h2></div>
+      <div class="grid mainContent">
+        <div class="col-12 mainContent">
+          <h2>HTML, CSS and DOM</h2>
+          <h3>Feature wish list</h3>
+          <p>The top menu bar from the bootstrap website <a href="http://getbootstrap.com/getting-started/#download">www.getbootstrap.com</a></p>
+          <p> Add different col numbers similar to Awwwards  <a href="http://www.awwwards.com/web-design-awards/admir-hadzic-portfolio-3">www.awwwards.com</a></p>
+          <p> Add pop up to the side to try and redirect people to a virus download <a href="http://dailytekk.com/2015/01/01/the-100-best-most-interesting-blogs-and-websites-of-2015/#awesome">www.dailytekk.com</a></p>
+          <p>Create page of all blog posts similar to Genius <a href="http://genius.com/">www.genius.com</a></p>
+          <h3>Describing HTML, CSS and DOM</h3>
+          <p>HTML is the content on your page. Any text, images blogs etc will all be in your HTML.</p>
+          <p>CSS is the styling that is layed out on top of your content. Without CSS a website is just text with no background and look and feel to it.</p>
+          <p> DOM is where each element of your websites site. You can think of it as a family tree. This helps when controling elements as some inherit traits, just like people. </p>
+          <h3>Boxify</h3>
+          <p>Boxify is when you put a website up into all the boxes that are used to create it. This is helpful when taking an image or another website and redesigning it.</p>
+          <h3> The Box Model</h3>
+          <p>The box model refers to how in CSS we don't just have content, that content has padding then a boarder and then margin as shown in this picture:
+          <p><img src="http://www.w3schools.com/css/box-model.gif" alt="The box model"></p>      
+        </div>
       </div>
-      <nav id="nav2">
-        <h2>Blog posts</h2>
-        <ul>
-          <li><a href="/blog/c4-time-and-habits-blog.html">Time and Habits</a></li>
-          <li><a href="/blog/c4-reflection-blog.html">EDA Reflection</a></li>
-          <li><a href="/blog/t2-html-css-dom-p1.html">HTML, CSS and Dom</a></li>
-          <li><a href="/blog/t2-html-css-dom-p2.html">HTML, CSS and Dom</a></li>
-          <li><a href="/blog/c2-emotional-intelligence.html">HTML, CSS and Dom</a></li> 
-        </ul>
-      </nav>
-      </nav>
-    </div>
+      <div id="footer">This blog is not copywrited. Please feel free to steal anything.</div>
   </body>
 </html>
-

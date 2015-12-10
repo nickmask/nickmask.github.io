@@ -7,38 +7,50 @@
 
   </head>
   <body>
-    <div id="wrapper">
-      <div id="header">
-        <nav id="nav1" class="mainNav">
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../projects/to-do.html">To-do list</a></li>
-            <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <h1><a class="link link--kukuri" href="#" data-letters="Nick's Site">Nick's Site</a>
-</h1>
-      </div>
-      <div id="content">
-        <h2>HTML, CSS and DOM - Part 2</h2>
+   <header>
+        <div class="row" ID="nav">
+          <div class="col-6" ID="title">
+            <h1>BLOG n' SHIT</h1><h2>by nick</h2>
+          </div>
+          <div class="col-6">
+            <nav id="primary_nav_wrap">
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li id="projects"><a href="../projects/to-do.html">Projects</a>
+                  <ul>
+                    <li><a href="../projects/to-do.html">To-do list</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="current-menu-item"><a href="#">Blog</a>
+                  <ul>
+                    <li><a href="/blog/c4-time-and-habits-blog.html">Time and Habits</a></li>
+                    <li><a href="/blog/c4-reflection-blog.html">EDA Reflection</a></li>
+                    <li><a href="/blog/t2-html-css-dom-p1.html">HTML, CSS and Dom P1</a></li>
+                    <li><a href="/blog/t2-html-css-dom-p2.html">HTML, CSS and Dom P2</a></li>
+                    <li><a href="/blog/c2-emotional-intelligence.html">Emotional Intellegence</a></li>                   
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+      </header>
+    <div class="col-12 contentBanner" ><h1>HTML, CSS and DOM - Part 2</h1><h2>What's this CSS all about?</h2></div>
+      <div class="grid mainContent">
+        <div class="col-12 mainContent">
         <h3>What is grid based design?</h3> 
         <p>A grid based design is a reliable way for your website to display information. Using grids you can keep everything in your website aligned and tidy. You can also use this to draw the readers eyes in the desired direction point them towards the information you want them to see.</p>
         <h3>Whats all the hype about responsive webpages?</h3> 
         <p>The hype is well warranted. Having a responsive website means that your website will work on any device and screen size. This is a huge benefit as often 30% of your website traffic is coming through from smaller devices these days. This is often dont through making certain break point which will adjust your site at different screen widths. This means you can make a table work differently from a phone and ensure you are displaying the most important information.</p>
         <h3> Semantic structure</h3> 
-        <p>Semantic structure is how your website is setup using the right semantics in the right place. For example, you wouldn't use a nav tag for an article. This helps search engines understand what your website is and also helps with accessability. This is an example of semantic structure. <br>
-        <img src="http://www.w3schools.com/html/img_sem_elements.gif" alt="Semantic Structure">   
-        </p>
+        <p>Semantic structure is how your website is setup using the right semantics in the right place. For example, you wouldn't use a nav tag for an article. This helps search engines understand what your website is and also helps with accessability. This is an example of semantic structure.
+        <p><img src="http://www.w3schools.com/html/img_sem_elements.gif" alt="Semantic Structure"></p>
+        </p>        
+        </div>
       </div>
-      <nav id="nav2">
-        <h2>Blog posts</h2>
-        <ul>
-          <li><a href="/blog/c4-time-and-habits-blog.html">Time and Habits</a></li>
-          <li><a href="/blog/c4-reflection-blog.html">EDA Reflection</a></li>
-          <li><a href="/blog/t2-html-css-dom-p1.html">HTML, CSS and Dom</a></li>
-          <li><a href="/blog/t2-html-css-dom-p2.html">HTML, CSS and Dom</a></li> 
-        </ul>
-      </nav>
-    </div>
+      <div id="footer">This blog is not copywrited. Please feel free to steal anything.</div>
   </body>
 </html>
