@@ -14,8 +14,8 @@
           <div class="col-6">
             <nav id="primary_nav_wrap">
               <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li id="projects"><a href="#">Projects</a>
+                <li ><a href="../index.html">Home</a></li>
+                <li id="projects" class="current-menu-item"><a href="#">Projects</a>
                   <ul>
                     <li><a href="../projects/to-do.html">To-do list</a></li>
                     <li><a href="../projects/how-many-words.html">Word counter</a></li>
@@ -23,8 +23,8 @@
                   </ul>
                 </li>
               </ul>
-              <ul>
-                <li class="current-menu-item"><a href="#">Blog</a>
+              <ul> 
+                <li><a href="#">Blog</a>
                   <ul>
                     <li><a href="/blog/c4-time-and-habits-blog.html">Time and Habits</a></li>
                     <li><a href="/blog/c4-reflection-blog.html">EDA Reflection</a></li>
@@ -35,26 +35,19 @@
                 </li>
               </ul>
             </nav>
-
           </div>
         </div>
       </header>
-    <div class="col-12 contentBanner" ><h1>Time and habit techniques</h1><h2>Time to get some habits</h2></div>
+    <div class="col-12 contentBanner" ><h1>How many words?</h1><h2>I dunno man, lets see if Javascript does....</h2></div>
       <div class="grid mainContent">
         <div class="col-12 mainContent">
-          <h2>What did you find interesting?</h2>
-          <p>I would like to experiement more with the Pomodoro technique. I like the way it works and it actually reminds me of scrum with the way you split tasks up and assign "Pomodoros" to them.</p>
-          <h2>What worked for you?</h2>
-          <p>One technique that I have found to be really good when distracted is to take 10 and practice my mindfullness. I was able to come back focused on the task and push through!</p>
-          <h2>Which will you experiment further with?</h2>
-          <p>
-          I think in future I will try the follow techniques:<br>- Ask youself 4 questions a day: In the morning "What are my goals?", "What are my challenges today?" and at the end of te day "Have I reached my goals today", "What have I learnt today?"<br>
-          - The Pomodoro technique<br>
-          - The Fogg method<br>
-          - Getting in the zone training
-          </p>  
+          <textarea id="inputString" cols="50" rows="4">Text to count</textarea>
+          <br>
+          <input type="button" name="Convert" value="Count Words" onclick="countWords();"> 
+          <input id="wordcount" type="text" value="" size="6">
         </div>
       </div>
       <div id="footer">This blog is not copywrited. Please feel free to steal anything.</div>
+      <script src="/js/how-many.js" type="text/Javascript"></script>
   </body>
 </html>
