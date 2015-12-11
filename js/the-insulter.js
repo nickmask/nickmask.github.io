@@ -15,9 +15,9 @@ function insultDecider() {
 	} else if (decider < 0.4) {
 		document.getElementById("insultOutput").innerHTML = "Hey " + name + ", is your ass jealous of the amount of shit that just came out of your mouth?";
 	} else if (decider < 0.5) {
-		document.getElementById("insultOutput").innerHTML = name + " you're so ugly, when your mom dropped you off at school she got a fine for littering.";	
+		document.getElementById("insultOutput").innerHTML = name + ", you're so ugly that when your mom dropped you off at school she got a fine for littering.";	
 	} else if (decider < 0.6) {
-		document.getElementById("insultOutput").innerHTML = "The only way " + name + " will ever get laid is if she crawl up a chicken's ass and waited.";
+		document.getElementById("insultOutput").innerHTML = "The only way " + name + " will ever get laid is if they crawl up a chicken's ass and waited.";
 	} else if (decider < 0.7) {
 		document.getElementById("insultOutput").innerHTML = "Hey " + name + ", it looks like your face caught on fire and someone tried to put it out with a fork.";
 	} else if (decider < 0.8) {
