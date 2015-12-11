@@ -13,7 +13,7 @@ function insultDecider() {
 	} else if (decider < 0.3) {
 		document.getElementById("insultOutput").innerHTML = "I wasn't born with enough middle fingers to let you know how I feel about you, " + name;
 	} else if (decider < 0.4) {
-		document.getElementById("insultOutput").innerHTML = "Hey " + name + ", is your ass jealous of the amount of shit that just came out of your mouth?";
+		document.getElementById("insultOutput").innerHTML = "Hey " + name + ", is your ass jealous of the amount of shit that just comes out of your mouth?";
 	} else if (decider < 0.5) {
 		document.getElementById("insultOutput").innerHTML = name + ", you're so ugly that when your mom dropped you off at school she got a fine for littering.";	
 	} else if (decider < 0.6) {
