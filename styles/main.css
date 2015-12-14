@@ -2,10 +2,8 @@
 Full width page
 ********************************/
 .full-width-container {
-width: 100%;
-max-width: 100%;
-clear: both;
-margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 /********************************
 Main navigation
@@ -20,7 +18,7 @@ nav {
 #nickProfile {
   border-radius: 50%;
   max-height: 150px;
-  margin-top: 20px;
+  margin-top: 22px;
   border: 3px solid #00648C
 }
 
@@ -40,6 +38,18 @@ nav {
   font-size: 4rem;
 }
 
+#mainNavigation li {
+  font-size: 15px;
+}
+
+#mainNav li:hover  {
+  color: white;
+}
+
+#contact li:hover  {
+  color: white;
+}
+
 #mainNavigation ul {
   margin: 0;
   padding: 0;
@@ -50,12 +60,44 @@ nav {
   text-decoration: none;
 }
 
-.contact {
-vertical-align: baseline;
+#mainNavigation p {
+  font-style: italic;
+}
+/** Position fixed makes it go to the bottom but I can't get it off the left side **/
+#contact {
+  bottom:0;
+  background-color: #00648C;
+  color: #28AADC;
+  margin: 20px;
+  display: block;
+}
+
+#contact li {
 }
 /********************************
 Main Content
 ********************************/
 #mainContent {
-  margin-left: 300px;
+  margin: 10px 50px 66px 350px;
 }
+
+#mainContent h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #3B3B3B;
+
+}
+
+#mainContent h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #6D6D6D;
+}
+
+.separator {
+  width: 100%;
+    height: 2px;
+    background-color: #e7e7e7;
+    border: none;
+    margin-top: 20px;
+  }
