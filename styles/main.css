@@ -65,14 +65,20 @@ nav {
 }
 /** Position fixed makes it go to the bottom but I can't get it off the left side **/
 #contact {
-  bottom:0;
   background-color: #00648C;
   color: #28AADC;
-  margin: 20px;
   display: block;
+  vertical-align: baseline;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  width: 300px;
+  height: 50px
 }
 
 #contact li {
+  margin: 14px 0 14px 0;
 }
 
 /********************************
