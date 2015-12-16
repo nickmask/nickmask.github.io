@@ -1,22 +1,23 @@
 /********************************
-Full width page
+Hidden at Mobile View
 ********************************/
-.container-fluid {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
+.name-social {
+  display: none;
 }
+#contact {
+  display:none;
+}
+
 
 @media (min-width: 768px) {
 
 /********************************
-Main navigation
+Sidebar
 ********************************/
 
-  #mainNavigation { 
+  .sidebar-wrapper { 
   position: fixed;
   z-index: 10;
-  padding: ;
   width: 300px;
   height: 100%;
   text-align: center;
@@ -31,15 +32,15 @@ Main navigation
   margin-top: 30px;
   border: 3px solid #00648C
 }
-#mainNavigation  h1{
+.sidebar-wrapper  h1{
   font-size: 4rem;
 }
 
-#mainNavigation li {
+.sidebar-wrapper li {
   font-size: 15px;
 }
 
-#mainNav li:hover  {
+.sidebar-nav li:hover  {
   color: white;
 }
 
@@ -47,19 +48,24 @@ Main navigation
   color: white;
 }
 
-#mainNavigation p {
+.sidebar-wrapper p {
   padding: 0 25px 0 25px;
   font-style: italic;
 }
 
-#mainNavigation ul {
+.sidebar-wrapper ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-#mainNavigation ul a{
+.sidebar-wrapper ul a{
   text-decoration: none;
+}
+
+.sidebar-nav{
+  background-color: none;
+
 }
 
 #contact {
@@ -84,31 +90,87 @@ Main navigation
   padding: 0 25px 0 25px
 }
 
+.name-social {
+  display: inline;
+}
+
+#contact {
+  display: inline;
+}
+
 /********************************
 Main Content
 ********************************/
-#mainContainer {
-  margin-left: 350px;
-  padding: 20px 20px 20px 0;
-  width: auto;
+.page-content-wrapper {
+  margin-left: 300px;
+  padding: 30px 20px 30px 20px;
+  right: -300px;
 }
-.row {
+
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.container-fluid .row {
   margin: 0;
 }
-#mainContainer img {
-  height: auto;
+
+.content-header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #3B3B3B;
+  margin-bottom: 0;
 }
+
+.content-header h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #6D6D6D;
+  margin-top: 10px;
+}
+
+.separator {
+  height: 2px;
+  background-color: #e7e7e7;
+  }
 
 
 }
+
+
+@media (min-width: 1000px) {
 
 /********************************
-Media Queries
+Main Content
 ********************************/
+.page-content article {
+    max-width: 50%;
+    float: left;
+    padding: 0 15px 0 15px;
 
+}
+}
+
+
+@media (min-width: 1200px) {
 /********************************
-Main navigation
-********************************
+Main Content
+********************************/
+.page-content article {
+    max-width: 50%;
+    float: left;
+    padding: 0 20px 0 20px;
+  }
+
+
+
+}
+
+
+
+/*
 
 nav { 
   position:fixed; 
