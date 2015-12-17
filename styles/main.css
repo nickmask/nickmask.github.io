@@ -1,23 +1,109 @@
 /********************************
 Hidden at Mobile View
 ********************************/
-.name-social {
+* {
+  font-family: Oxygen,Helvetica,sans-serif;
+}
+
+.page-content-wrapper p {
+  color: #6d6d6d;
+}
+
+.nick-details {
   display: none;
 }
+
 #contact {
-  display:none;
+  display: none;
 }
 
+.sidebar-nav li {
+  display: inline;
+  font-size: 2.2rem;
+  padding: 0px 15px 0 15px;
+}
+
+.sidebar-nav a{
+  color: #00648C;
+}
+
+.sidebar-nav a:hover{
+  color: white;
+}
+
+.sidebar-nav {
+  padding-left: 0;
+}
+
+.sidebar-wrapper {
+  background-color: #28AADC;
+  text-align: center;
+  height: 85px;
+  padding-top: 28px
+}
+
+.sidebar-wrapper ul a{
+  text-decoration: none;
+}
+
+.page-content-wrapper h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #3B3B3B;
+  margin: 10px 0 10px 0;
+}
+
+.page-content-wrapper h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #6D6D6D;
+  margin-top: 10px;
+}
+
+.separator {
+  height: 2px;
+  background-color: #e7e7e7;
+  }
+
+.page-content article {
+  padding-bottom: 20px;
+}
+
+#date {
+  font-style: italic;
+  color: #b3b3b3
+}
+
+/********************************
+Start scaling
+********************************/
 
 @media (min-width: 768px) {
+
+/** Canceling out mobile shit **/
+.nick-details {
+  display: inline;
+}
+
+#contact {
+  display: block;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.sidebar-nav li {
+  display: block;
+  padding: 0;
+}
 
 /********************************
 Sidebar
 ********************************/
-
   .sidebar-wrapper { 
   position: fixed;
-  z-index: 10;
+  z-index: 5;
   width: 300px;
   height: 100%;
   text-align: center;
@@ -27,10 +113,10 @@ Sidebar
 }
 
 #nickProfile {
-  border-radius: 50%;
   max-height: 150px;
   margin-top: 30px;
-  border: 3px solid #00648C
+  border: 3px solid #00648C;
+  border-radius: 50%;
 }
 .sidebar-wrapper  h1{
   font-size: 4rem;
@@ -38,13 +124,10 @@ Sidebar
 
 .sidebar-wrapper li {
   font-size: 15px;
+  padding-top: 10px;
 }
 
-.sidebar-nav li:hover  {
-  color: white;
-}
-
-#contact li:hover  {
+#contact li a:hover  {
   color: white;
 }
 
@@ -59,18 +142,8 @@ Sidebar
   list-style-type: none;
 }
 
-.sidebar-wrapper ul a{
-  text-decoration: none;
-}
-
-.sidebar-nav{
-  background-color: none;
-
-}
-
 #contact {
   background-color: #00648C;
-  color: #28AADC;
   display: block;
   vertical-align: baseline;
   position: fixed;
@@ -83,6 +156,10 @@ Sidebar
 
 #contact li {
   margin: 14px 0 14px 0;
+}
+
+#contact li a {
+  color: #28AADC;
 }
 
 .social li {
@@ -119,22 +196,75 @@ Main Content
 
 .content-header h1 {
   font-size: 4rem;
-  font-weight: bold;
-  color: #3B3B3B;
-  margin-bottom: 0;
 }
 
 .content-header h2 {
   font-size: 2.2rem;
-  font-weight: 500;
-  color: #6D6D6D;
-  margin-top: 10px;
 }
 
 .separator {
   height: 2px;
   background-color: #e7e7e7;
   }
+
+.social {
+  height: ;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 4px 10px 10px 10px;
+  font-size: 0;
+  text-indent: -9999px;
+  background-image: url("../images/social-icons.png");
+}
+
+/* facebook */
+  .facebook {
+  width: 10px;
+  height: 21px;
+  background-position: 0px 0px;
+}
+
+.facebook:hover {
+  background-position: 0 -39px;
+}
+
+/* twitter */
+.twitter {
+  width: 21px;
+  height: 18px;
+  background-position: -34px 0px;
+}
+
+.twitter:hover {
+  background-position: -34px -41px;
+}
+
+/* github */
+.github {
+  width: 21px;
+  height: 18px;
+  background-position: -113px -1px;
+}
+
+.github:hover {
+  background-position: -113px -41px;
+}
+
+/* linkedin */
+.linkedin {
+  width: 19px;
+  height: 18px;
+  background-position: -74px -2px;
+}
+
+.linkedin:hover {
+  background-position: -74px -42px;
+}
+
 
 
 }
@@ -148,7 +278,7 @@ Main Content
 .page-content article {
     max-width: 50%;
     float: left;
-    padding: 0 15px 0 15px;
+    padding: 0 15px 20px 15px;
 
 }
 }
@@ -161,11 +291,19 @@ Main Content
 .page-content article {
     max-width: 50%;
     float: left;
-    padding: 0 20px 0 20px;
+    padding: 0 20px 20px 20px;
   }
+}
 
-
-
+@media (min-width: 1400px) {
+/********************************
+Main Content
+********************************/
+.page-content article {
+    max-width: 33.3333333%;
+    float: left;
+    padding: 0 20px 20px 20px;
+  }
 }
 
 
