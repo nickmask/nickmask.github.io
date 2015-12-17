@@ -224,13 +224,13 @@ Main Content
 
 /* facebook */
   .facebook {
-  width: 10px;
-  height: 18px;
-  background-position: -13px -9px;
+  width: 36px;
+  height: 36px;
+  background-position: 0px 0px;
 }
 
 .facebook:hover {
-  background-position: -13px -45px;
+  background-position: 0px -36px;
 }
 
 /* twitter */
