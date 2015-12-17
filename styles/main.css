@@ -121,6 +121,7 @@ Sidebar
   padding: 0;
   background-color: #28AADC;
   color: #00648C;
+  overflow-y: auto;
 }
 
 #nickProfile {
@@ -172,6 +173,7 @@ Sidebar
 
 #contact li a {
   color: #28AADC;
+  text-decoration: none;
 }
 
 .social li {
@@ -192,7 +194,7 @@ Main Content
 ********************************/
 .page-content-wrapper {
   margin-left: 300px;
-  padding: 30px 20px 30px 20px;
+  padding: 15px 20px 30px 20px;
   right: -300px;
 }
 
