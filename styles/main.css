@@ -218,18 +218,19 @@ Main Content
   margin: 4px 10px 10px 10px;
   font-size: 0;
   text-indent: -9999px;
-  background-image: url("../images/social-icons.png");
+  background-image: url("../images/social-icons.svg"), none;
+
 }
 
 /* facebook */
   .facebook {
   width: 10px;
-  height: 21px;
-  background-position: 0px 0px;
+  height: 18px;
+  background-position: -13px -9px;
 }
 
 .facebook:hover {
-  background-position: 0 -39px;
+  background-position: -13px -45px;
 }
 
 /* twitter */
@@ -247,7 +248,7 @@ Main Content
 .github {
   width: 21px;
   height: 18px;
-  background-position: -113px -1px;
+  background-position: -113px 0px;
 }
 
 .github:hover {
