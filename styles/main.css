@@ -68,6 +68,13 @@ Hidden at Mobile View
 .page-content article {
   padding-bottom: 20px;
 }
+.page-content  {
+  padding-bottom: 20px;
+}
+
+.page-content a{
+  text-decoration: none;
+}
 
 #date {
   font-style: italic;
