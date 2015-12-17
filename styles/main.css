@@ -85,6 +85,12 @@ Hidden at Mobile View
   color: white;
 }
 
+.post-image {
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /********************************
 Start scaling
 ********************************/
@@ -283,6 +289,7 @@ Main Content
 .post h1 {
   padding-bottom: 12px;
 }
+
 
 }
 

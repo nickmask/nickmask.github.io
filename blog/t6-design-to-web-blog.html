@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Nick's Blog</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="/image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  
+  <div class="wrapper">
+
+    <!--  Sidebar    -->
+    <div class="sidebar-wrapper">
+      <div class="nick-details">
+        <img src="/images/nick.jpg" alt="Picture of Nick Maskell" id="nickProfile">
+        <h1>Nick Maskell</h1>
+        <div class="social">
+          <ul>
+            <a href="https://www.facebook.com/nrmaskell" class="icon facebook">facebook</a>
+            <a href="https://twitter.com/nickmask" class="icon twitter">twitter</a>
+            <a href="https://github.com/nickmask" class="icon github">github</a>
+            <a href="https://www.linkedin.com/in/nickmask" class="icon linkedin">linkedin</a>
+          </ul>
+        </div>
+        <div class="about">
+          <p>/Web Developer<br>/Marketer<br>/Tech Enthusiast</p>
+        </div>
+      </div>
+    <!--   Sidebar Nav -->
+      <nav>
+                  <ul class="sidebar-nav">
+                      <li class="nav-item"><a href="/index.html">Home</a></li>
+                      <li class="nav-item"><a href="/projects/projects.html">Projects</a></li>
+                      <li class="nav-item current-page"><a href="/blog/blog.html">Blog</a></li>
+                  </ul>
+      </nav>
+    </div>
+      <nav id="sidebar-nav contact">
+          <ul id="contact">
+            <li> <a href="/other/contact.html">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+
+    <!-- Page Content -->
+
+    <div class="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 page-content">
+              <div class="page-content">
+                <div class="post">
+                  <hr class="separator" id="topSep">
+                  <article>
+                    <h1>Responsive web design</h1>            
+                    <img src="/images/responsive.jpg" alt="" class="img-responsive">
+                    <p id="date">
+                      9 December 2015
+                    </p>
+                      <h2>What a responsive site is, and why responsiveness is important?</h2>
+                      <p>
+                        A responsive website is a site that responds to the size of the screen you are viewing it on. This means that no matter what you are viewing the website on, you should have a good experience. This is really important as website often have upwards of 30% of their visitors viewing the site from a mobile platform. This means that if you have they have a bad experience at smaller screen sizes you will lose a very large audience. It is also important considering the varying sizes of screens that are currently out there. Having a site that workds on all those sizes is a huge benefit.
+                      </p>
+                      <h2>What mobile first design is, and why it's important?</h2>
+                      <p>
+                        Mobile first design is a mindset and method while you can use when building a site. It means that instead of taking a large site and making it smaller, you take your mobile site and increase its size. This has a couple of benefits, firstly the site when viewed on mobile (which are generally on a mobile network) does not have to load as much CSS, meaning it is faster to load. Secondly, it helps shape how you desing you site and often means that you end up with a much more consise design.
+                      </p>
+                      <h2>What frameworks are, and their pros and cons?</h2>
+                      <p>
+                        Frameworks are a base of CSS that helps to make building your site easier. They have the grid design and features already built in, meaning you do not need to work with the sometimes messy percentages etc. This, however, means you end up with a lot of unused CSS. Building from scratch means that you only add the code you need, nothing else. This means you can have a very lean and fast acting site. 
+                      </p>
+                      <h2>What a wireframe is and why we use it?</h2>
+                      <p>
+                        A wireframe is what we use to plan our site. We do this without images or text to get a good idea of the flow and layout before we start. This can help identify problems before you have even starting writing code. 
+                      </p>
+                      <h2> My website wirefram images:</h2>
+                      <img src="/images/mobile-site.png" class="img-responsive post-image" alt="">
+                      <br>
+                      <img src="/images/tablet-site.png" class= "img-responsive post-image" alt="">
+                      <br>
+                      <img src="/images/desktop-site.png" class="img-responsive post-image" alt="">
+                      </p>
+                      <h2>The aspects of your wireframes you found difficult to implement, and why?</h2>
+                      <p>
+                        Getting the side bar how I wanted it was really difficult. It actually broke the skeleton framework so I moved to the Bootstrap framework. Skeleton was limited to a 960px wide side. Also working on the social media icons as I had to learn what CSS sprites were and that took me about half a day!
+                      <p>
+                        I wasnt able to get the hamburger menu working as it required JS and I didnt want to focus on that right now.
+                      </p>
+                      </p>
+                      <h2>The accessibility features you included in your site?</h2>
+                      <p>
+                        My HTML is in a logical order by importance, tags are being used in the correct place etc.
+                      </p>
+                      <h2>The usability features you included in your site?</h2>
+                      <p>
+                        My website is full mobile responsive and has 4 breakpoints where it can display more data to fully italise large screens.
+                      </p>
+                  </article>
+             </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
