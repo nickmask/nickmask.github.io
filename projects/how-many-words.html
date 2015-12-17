@@ -1,53 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Nick's Page</title>
-    <link href="/styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-   <header>
-        <div class="row" ID="nav">
-          <div class="col-6" ID="title">
-            <h1>BLOG n' SHIT</h1><h2>by nick</h2>
-          </div>
-          <div class="col-6">
-            <nav id="primary_nav_wrap">
-              <ul>
-                <li ><a href="../index.html">Home</a></li>
-                <li id="projects" class="current-menu-item"><a href="#">Projects</a>
-                  <ul>
-                    <li><a href="../projects/to-do.html">To-do list</a></li>
-                    <li><a href="../projects/how-many-words.html">Word counter</a></li>
-                    <li><a href="../projects/the-insulter.html">Insult Me</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <ul> 
-                <li><a href="#">Blog</a>
-                  <ul>
-                    <li><a href="/blog/c4-time-and-habits-blog.html">Time and Habits</a></li>
-                    <li><a href="/blog/c4-reflection-blog.html">EDA Reflection</a></li>
-                    <li><a href="/blog/t2-html-css-dom-p1.html">HTML, CSS and Dom P1</a></li>
-                    <li><a href="/blog/t2-html-css-dom-p2.html">HTML, CSS and Dom P2</a></li>
-                    <li><a href="/blog/c2-emotional-intelligence.html">Emotional Intellegence</a></li>                   
-                  </ul>
-                </li>
-              </ul>
-            </nav>
-          </div>
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Nick's Blog</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="/image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  
+  <div class="wrapper">
+
+    <!--  Sidebar    -->
+    <div class="sidebar-wrapper">
+      <div class="nick-details">
+        <img src="/images/nick.jpg" alt="Picture of Nick Maskell" id="nickProfile">
+        <h1>Nick Maskell</h1>
+        <div class="social">
+          <ul>
+            <a href="https://www.facebook.com/nrmaskell" class="icon facebook">facebook</a>
+            <a href="https://twitter.com/nickmask" class="icon twitter">twitter</a>
+            <a href="https://github.com/nickmask" class="icon github">github</a>
+            <a href="https://www.linkedin.com/in/nickmask" class="icon linkedin">linkedin</a>
+          </ul>
         </div>
-      </header>
-    <div class="col-12 contentBanner" ><h1>How many words?</h1><h2>I dunno man, lets see if Javascript does....</h2></div>
-      <div class="grid mainContent">
-        <div class="col-12 mainContent">
-          <textarea id="inputString" cols="50" rows="4">Text to count</textarea>
-          <br>
-          <input type="button" name="Convert" value="Count Words" onclick="countWords();"> 
-          <input id="wordcount" type="text" value="" size="6">
+        <div class="about">
+          <p>/Web Developer<br>/Marketer<br>/Tech Enthusiast</p>
         </div>
       </div>
-      <div id="footer">This blog is not copywrited. Please feel free to steal anything.</div>
-      <script src="/js/how-many.js" type="text/Javascript"></script>
-  </body>
+    <!--   Sidebar Nav -->
+      <nav>
+                  <ul class="sidebar-nav">
+                      <li class="nav-item"><a href="/index.html">Home</a></li>
+                      <li class="nav-item current-page"><a href="/projects/projects.html">Projects</a></li>
+                      <li class="nav-item"><a href="/blog/blog.html">Blog</a></li>
+                  </ul>
+      </nav>
+    </div>
+      <nav id="sidebar-nav contact">
+          <ul id="contact">
+            <li> <a href="/other/contact.html">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+
+    <!-- Page Content -->
+
+    <div class="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 page-content">
+              <div class="page-content">
+                <div class="post">
+                  <hr class="separator" id="topSep">
+                  <article>
+                    <h1>Word length calculator</h1>            
+                    <img src="/images/count.jpg" alt="" class="img-responsive">
+                    <p id="date">
+                      10 December 2015
+                    </p>
+                    <textarea id="inputString" cols="50" rows="4">Text to count</textarea>
+                    <br>
+                    <input type="button" name="Convert" value="Count Words" onclick="countWords();"> 
+                    <input id="wordcount" type="text" value="" size="6">
+                  </article>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="/js/how-many.js"></script>
+</body>
 </html>
