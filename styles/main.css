@@ -74,6 +74,10 @@ Hidden at Mobile View
   color: #b3b3b3
 }
 
+.current-page a {
+  color: white;
+}
+
 /********************************
 Start scaling
 ********************************/
