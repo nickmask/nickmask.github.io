@@ -235,35 +235,35 @@ Main Content
 
 /* twitter */
 .twitter {
-  width: 21px;
-  height: 18px;
-  background-position: -34px 0px;
+  width: 36px;
+  height: 36px;
+  background-position: -36px 0px;
 }
 
 .twitter:hover {
-  background-position: -34px -41px;
+  background-position: -36px -36px;
 }
 
 /* github */
 .github {
-  width: 21px;
-  height: 18px;
-  background-position: -113px 0px;
+  width: 36px;
+  height: 36px;
+  background-position: -108px 0px;
 }
 
 .github:hover {
-  background-position: -113px -41px;
+  background-position: -108px -36px;
 }
 
 /* linkedin */
 .linkedin {
-  width: 19px;
-  height: 18px;
-  background-position: -74px -2px;
+  width: 36px;
+  height: 36px;
+  background-position: -144px 0px;
 }
 
 .linkedin:hover {
-  background-position: -74px -42px;
+  background-position: -144px -36px;
 }
 
 
