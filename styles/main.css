@@ -120,7 +120,7 @@ Sidebar
 }
 .sidebar-wrapper  h1{
   font-size: 4rem;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .sidebar-wrapper li {
