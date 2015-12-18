@@ -290,6 +290,10 @@ Main Content
   padding-bottom: 12px;
 }
 
+.page-content article {
+  min-height: 340px;
+  overflow: hidden;
+}
 
 }
 
