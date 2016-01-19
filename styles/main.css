@@ -1,6 +1,96 @@
 /********************************
 Hidden at Mobile View
 ********************************/
+  
+/* Nav Collapse Menu */  
+.menu-btn div {
+ position: absolute;
+ left: 100%;
+ top: 64%;
+ padding-right: 8px;
+ margin-top: -0.50em;
+ line-height: 1.2;
+ font-size: 18px;
+ font-weight: 200;
+ vertical-align: middle;
+ z-index: 99;
+}
+ 
+ .mobile-nav {
+  padding: 10px 0 10px 10px;
+ }
+
+.menu-btn span {
+ display: block;
+ width: 19px;
+ height: 3px;
+ margin: 0 0 4px;
+ background: #00648C;
+ z-index: 99;
+}
+
+.responsive-menu{
+ display: none;
+}
+ 
+.expand {
+ display: block !important; 
+}
+
+.mobile-nav {
+  background-color: #28AADC;
+  margin: 0;
+}
+.sidebar-nav a{
+  color: #00648C;
+}
+
+.sidebar-nav a:hover{
+  color: white;
+}
+
+.sidebar-wrapper {
+  background-color: #28AADC;
+  text-align: center;
+}
+
+.sidebar-wrapper ul a{
+  text-decoration: none;
+}
+
+.menuIcon a:hover {
+  color: white;
+  text-decoration: none;
+}
+.sidebar-nav li {
+  font-size: 2.2rem;
+  list-style-type: none;
+}
+
+
+/*
+
+
+.menuIcon  a{
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: #00648C;
+}
+
+
+
+
+
+.sidebar-nav .menuOpen li {
+  display: block;
+}
+
+
+
+.sidebar-nav {
+  padding-left: 0;
+}*/
+
 * {
   font-family: Oxygen,Helvetica,sans-serif;
 }
@@ -15,35 +105,6 @@ Hidden at Mobile View
 
 #contact {
   display: none;
-}
-
-.sidebar-nav li {
-  display: inline;
-  font-size: 2.2rem;
-  padding: 0px 15px 0 15px;
-}
-
-.sidebar-nav a{
-  color: #00648C;
-}
-
-.sidebar-nav a:hover{
-  color: white;
-}
-
-.sidebar-nav {
-  padding-left: 0;
-}
-
-.sidebar-wrapper {
-  background-color: #28AADC;
-  text-align: center;
-  height: 85px;
-  padding-top: 28px
-}
-
-.sidebar-wrapper ul a{
-  text-decoration: none;
 }
 
 .page-content-wrapper h1 {
