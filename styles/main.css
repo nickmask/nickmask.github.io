@@ -18,6 +18,7 @@ Hidden at Mobile View
  
  .mobile-nav {
   padding: 10px 0 10px 10px;
+  text-align: center;
  }
 
 .menu-btn span {
@@ -40,13 +41,23 @@ Hidden at Mobile View
 .mobile-nav {
   background-color: #28AADC;
   margin: 0;
+   text-align: center;
 }
+
+.sidebar-nav {
+  padding: 0;
+  background-color: white;
+  border: 2px #28AADC solid;
+  border-top: none;
+  padding: 10px 0 10px 0;
+}
+
 .sidebar-nav a{
-  color: #00648C;
+  color: #28AADC;
 }
 
 .sidebar-nav a:hover{
-  color: white;
+  color: #00648C;
 }
 
 .sidebar-wrapper {
@@ -66,30 +77,6 @@ Hidden at Mobile View
   font-size: 2.2rem;
   list-style-type: none;
 }
-
-
-/*
-
-
-.menuIcon  a{
-    font-size: 2.2rem;
-    text-decoration: none;
-    color: #00648C;
-}
-
-
-
-
-
-.sidebar-nav .menuOpen li {
-  display: block;
-}
-
-
-
-.sidebar-nav {
-  padding-left: 0;
-}*/
 
 * {
   font-family: Oxygen,Helvetica,sans-serif;
@@ -143,7 +130,7 @@ Hidden at Mobile View
 }
 
 .current-page a {
-  color: white;
+  color: #00648C;
 }
 
 .post-image {
