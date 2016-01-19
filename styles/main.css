@@ -146,6 +146,19 @@ Start scaling
 @media (min-width: 768px) {
 
 /** Canceling out mobile shit **/
+
+.sidebar-nav li{
+  background-color: #28AADC;
+}
+
+.sidebar-nav a{
+  color: #00648C;
+}
+
+.current-page a {
+  color: white;
+}
+
 .nick-details {
   display: inline;
 }
@@ -153,6 +166,10 @@ Start scaling
  .mobile-nav {
   display: none;
  }
+
+ .sidebar-nav a:hover{
+  color: white;
+}
 
 #contact {
   display: block;
