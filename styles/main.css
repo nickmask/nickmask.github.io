@@ -163,6 +163,10 @@ Start scaling
   display: inline;
 }
 
+ .mobile-nav {
+  display: none;
+ }
+
 #contact {
   display: block;
   text-align: center;
@@ -175,6 +179,12 @@ Start scaling
   display: block;
   padding: 0;
 }
+
+.responsive-menu{
+ display: block;
+}
+
+
 
 /********************************
 Sidebar
