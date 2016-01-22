@@ -103,6 +103,14 @@ Hidden at Mobile View
 
 .page-content-wrapper h2 {
   font-size: 2rem;
+  font-weight: bold;
+  font-weight: 500;
+  color: #3B3B3B;
+  margin-top: 10px;
+}
+
+.page-content-wrapper h3 {
+  font-size: 1.8rem;
   font-weight: 500;
   color: #6D6D6D;
   margin-top: 10px;
