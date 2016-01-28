@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Nick's Blog</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="/js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/cats.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="/image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  
+  <div class="wrapper">
+
+    <!--  Sidebar    -->
+    <div class="sidebar-wrapper">
+      <div class="nick-details">
+        <img src="/images/nick.jpg" alt="Picture of Nick Maskell" id="nickProfile">
+        <h1>Nick Maskell</h1>
+        <div class="social">
+          <ul>
+            <a href="https://www.facebook.com/nrmaskell" class="icon facebook">facebook</a>
+            <a href="https://twitter.com/nickmask" class="icon twitter">twitter</a>
+            <a href="https://github.com/nickmask" class="icon github">github</a>
+            <a href="https://www.linkedin.com/in/nickmask" class="icon linkedin">linkedin</a>
+          </ul>
+        </div>
+        <div class="about">
+          <p>/Web Developer<br>/Marketer<br>/Tech Enthusiast</p>
+        </div>
+      </div>
+    <!--   Sidebar Nav -->
+      <div class="mobile-nav">
+         <div class="menu-btn" id="menu-btn">
+           <div class="spanDiv"></div>
+           <span></span>
+           <span></span>
+           <span></span>
+         </div>
+      </div>
+      <nav class ="responsive-menu">
+                  <ul class="sidebar-nav ">
+                      <li class="nav-item"><a href="/index.html">Home</a></li>
+                      <li class="nav-item current-page"><a href="/projects/projects.html">Projects</a></li>
+                      <li class="nav-item"><a href="/blog/blog.html">Blog</a></li>
+                  </ul>
+      </nav>
+    </div>
+      <nav id="sidebar-nav contact">
+          <ul id="contact">
+            <li> <a href="/other/contact.html">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+    <!-- Page Content -->
+
+    <div class="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 page-content">
+              <div class="page-content">
+                <div class="post">
+                  <hr class="separator" id="topSep">
+                  <article>
+                    <h1>WTF Cats!</h1>            
+                    <p id="date">
+                      26 January 2016
+                    </p>
+                    <img src="/images/cat.png" alt="" class="img-responsive" ID="cat">
+                    <div class"buttons">
+                      <input type="button" id="crazy" value="Don't be crazy, cat" onclick="crazyCat()">
+                    </div>
+                  </article>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="/js/cats.js" type="text/Javascript"></script>
+</body>
+</html>
