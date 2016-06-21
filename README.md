@@ -1,2 +1,2 @@
 # nickmask.github.io
-Nick's blog
+Created as part of Dev Academy to practice HTML and CSS.
