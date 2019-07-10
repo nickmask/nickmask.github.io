@@ -1,0 +1,6 @@
+.wrapper {
+  display: flex;
+  align-items: flex-end;
+  max-width: 75%;
+  margin-bottom: 100px;
+}

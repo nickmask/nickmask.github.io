@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 100px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: "–";
+  position: absolute;
+  margin-left: -1.2em;
+}

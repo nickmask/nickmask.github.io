@@ -1,0 +1,9 @@
+.wrapper {
+  margin-bottom: 120px;
+}
+
+.email {
+  color: #000;
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+}

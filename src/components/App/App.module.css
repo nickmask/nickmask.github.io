@@ -15,6 +15,7 @@
 
 body {
   margin: 0;
+  background-color: #e1f5e5;
 }
 
 @media (max-width: 768px) {
@@ -37,6 +38,8 @@ body {
 
 header {
   grid-area: header;
+  margin-top: 69px;
+  font-size: 69px;
 }
 
 main {
