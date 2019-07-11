@@ -29,7 +29,9 @@ function Footer() {
             © 2019 Nick Maskell. Made in London.
           </span>
         </div>
-        <span className={styles.nickmask}>NICKMASK</span>
+        <div className={styles.nickmaskWrapper}>
+          <span className={styles.nickmask}>NICKMASK</span>
+        </div>
       </div>
     </div>
   );

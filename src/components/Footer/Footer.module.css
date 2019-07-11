@@ -37,6 +37,12 @@
   font-size: 14px;
 }
 
+.nickmaskWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
 .nickmask {
   font-family: "Anurati-Regular";
   letter-spacing: 2px;

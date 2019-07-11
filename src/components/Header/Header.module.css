@@ -1,4 +1,10 @@
 .nickmask {
-  font-family: "Anurati-Regular";
+  font-family: "Anurati-Regular", sans-serif;
   letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .nickmask {
+    font-size: 50px;
+  }
 }

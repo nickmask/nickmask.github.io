@@ -15,7 +15,7 @@ import styles from "./App.module.css";
 function App() {
   return (
     <div className={styles.App}>
-      <div class={styles.container}>
+      <div className={styles.container}>
         <header>
           <Header />
         </header>

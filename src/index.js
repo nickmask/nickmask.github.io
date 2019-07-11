@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import "./fonts/Anurati-Regular.otf";
 import "./index.css";
-import "./fonts/anuratiregular.otf";
 
 import App from "./components/App/App";
 import * as serviceWorker from "./serviceWorker";

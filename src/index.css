@@ -1,9 +1,16 @@
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Open Sans",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.6;
+}
+
+@font-face {
+  font-family: "Anurati-Regular";
+  src: local("Anurati-Regular"),
+    url("./fonts/Anurati-Regular.otf") format("opentype");
 }
 
 h1 {
