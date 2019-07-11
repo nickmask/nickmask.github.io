@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.7d40bea9.chunk.css",
-    "main.js": "/static/js/main.0c3888b8.chunk.js",
-    "main.js.map": "/static/js/main.0c3888b8.chunk.js.map",
+    "main.js": "/static/js/main.f3f59505.chunk.js",
+    "main.js.map": "/static/js/main.f3f59505.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.7df9eb00.chunk.js": "/static/js/2.7df9eb00.chunk.js",
     "static/js/2.7df9eb00.chunk.js.map": "/static/js/2.7df9eb00.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.25448993d365c326d4add8c79bf8c2d4.js": "/precache-manifest.25448993d365c326d4add8c79bf8c2d4.js",
+    "precache-manifest.20dacfc085209dfec3387aece8e2cf28.js": "/precache-manifest.20dacfc085209dfec3387aece8e2cf28.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7d40bea9.chunk.css.map": "/static/css/main.7d40bea9.chunk.css.map",
-    "static/media/Anurati-Regular.otf": "/static/media/Anurati-Regular.ca8632f4.otf"
+    "static/media/anuratiregular.otf": "/static/media/anuratiregular.ca8632f4.otf"
   }
 }
