@@ -6,9 +6,9 @@ function Headline() {
   return (
     <div className={styles.wrapper}>
       <h1>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s
+        I’m Nick. <br />
+        An overally positive traveler, foodie and geek. <br />
+        I’m also a software developer.
       </h1>
     </div>
   );

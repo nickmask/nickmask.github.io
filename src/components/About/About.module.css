@@ -4,3 +4,8 @@
   align-items: flex-start;
   margin-bottom: 100px;
 }
+
+.col1,
+.col2 {
+  width: 49%;
+}

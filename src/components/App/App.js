@@ -7,6 +7,7 @@ import Header from "../Header/Header";
 import Headline from "../Headline/Headline";
 import Separator from "../Separator/Separator";
 import Skills from "../Skills/Skills";
+import Technology from "../Technology/Technology";
 import WordsToLiveBy from "../WordsToLiveBy/WordsToLiveBy";
 
 import styles from "./App.module.css";
@@ -24,6 +25,8 @@ function App() {
           <About />
           <Separator />
           <Skills />
+          <Separator />
+          <Technology />
           <Separator />
           <WordsToLiveBy />
           <Separator />
