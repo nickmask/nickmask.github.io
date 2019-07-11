@@ -20,6 +20,7 @@ body {
 
 @media (max-width: 768px) {
   .container {
+    margin: 0 20px;
     grid-template-areas:
       "header"
       "content"
@@ -27,11 +28,8 @@ body {
 
     grid-template-columns: 1fr;
     grid-template-rows:
-      auto /* Nav */
       auto /* Header */
-      minmax(75px, auto) /* Left Sidebar */
       1fr /* Content */
-      minmax(75px, auto) /* Right Sidebar */
       auto; /* Footer */
   }
 }

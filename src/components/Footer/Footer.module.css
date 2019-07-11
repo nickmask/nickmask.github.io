@@ -14,6 +14,11 @@
   margin-bottom: 40px;
 }
 
+.linkWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .githubLogo {
   color: black;
   font-size: 18px;
@@ -30,4 +35,9 @@
 
 .copywrite {
   font-size: 14px;
+}
+
+.nickmask {
+  font-family: "Anurati-Regular";
+  letter-spacing: 2px;
 }

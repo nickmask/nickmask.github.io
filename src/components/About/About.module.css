@@ -9,3 +9,18 @@
 .col2 {
   width: 49%;
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .col1,
+  .col2 {
+    width: 100%;
+  }
+
+  .col1 :last-child {
+    margin-bottom: 0;
+  }
+}

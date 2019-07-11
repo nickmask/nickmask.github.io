@@ -8,25 +8,28 @@ function Footer() {
   return (
     <div className={styles.wrapper}>
       <hr className={styles.separator} />
-      <div className={styles.socialWrapper}>
-        <a
-          href="https://www.linkedin.com/in/nickmask"
-          title="LinkedIn @nickmask"
-          className={styles.linkedinLogo}
-        >
-          <FontAwesomeIcon icon={faLinkedin} />
-        </a>
-        <a
-          href="https://www.github.com/nickmask"
-          title="Github @nickmask"
-          className={styles.githubLogo}
-        >
-          <FontAwesomeIcon icon={faGithub} />
-        </a>
-        <span className={styles.copywrite}>
-          {" "}
-          © 2019 Nick Maskell. Made in London.
-        </span>
+      <div className={styles.linkWrapper}>
+        <div className={styles.socialWrapper}>
+          <a
+            href="https://www.linkedin.com/in/nickmask"
+            title="LinkedIn @nickmask"
+            className={styles.linkedinLogo}
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+          <a
+            href="https://www.github.com/nickmask"
+            title="Github @nickmask"
+            className={styles.githubLogo}
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <span className={styles.copywrite}>
+            {" "}
+            © 2019 Nick Maskell. Made in London.
+          </span>
+        </div>
+        <span className={styles.nickmask}>NICKMASK</span>
       </div>
     </div>
   );

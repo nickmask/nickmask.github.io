@@ -17,3 +17,20 @@
 .blurb {
   font-size: 14px;
 }
+
+@media (max-width: 650px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .col1,
+  .col2,
+  .col3 {
+    width: 100%;
+  }
+
+  .col1,
+  .col2 :last-child {
+    margin-bottom: 0;
+  }
+}
