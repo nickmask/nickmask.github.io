@@ -64,7 +64,7 @@ function App() {
             blurb="I have worked with many technologies and am always ready to learn and
           use more."
             list={technology}
-          />{" "}
+          />
           <Separator />
           <WordsToLiveBy />
           <Separator />
