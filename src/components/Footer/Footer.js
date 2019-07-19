@@ -6,7 +6,7 @@ import styles from "./Footer.module.css";
 
 function Footer() {
   return (
-    <div className={styles.wrapper}>
+    <React.Fragment>
       <hr className={styles.separator} />
       <div className={styles.linkWrapper}>
         <div className={styles.socialWrapper}>
@@ -33,7 +33,7 @@ function Footer() {
           <span className={styles.nickmask}>NICKMASK</span>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 

@@ -2,8 +2,10 @@ import React from "react";
 import styles from "./ListSection.module.css";
 
 export default function ListSection({ title, blurb, list }) {
-  const listLeft = list.slice(0, Math.ceil(list.length / 2));
-  const listRight = list.slice(Math.ceil(list.length / 2) + 1, list.length);
+  const listMidpoint = Math.ceil(list.length / 2);
+
+  const listLeft = list.slice(0, listMidpoint);
+  const listRight = list.slice(listMidpoint);
 
   return (
     <div className={styles.wrapper}>
@@ -13,15 +15,15 @@ export default function ListSection({ title, blurb, list }) {
       </div>
       <div className={styles.col2}>
         <ul>
-          {listLeft.map(item => (
-            <li>{item}</li>
+          {listLeft.map((item, i) => (
+            <li key={i}>{item}</li>
           ))}
         </ul>
       </div>
       <div className={styles.col3}>
         <ul>
-          {listRight.map(item => (
-            <li>{item}</li>
+          {listRight.map((item, i) => (
+            <li key={i}>{item}</li>
           ))}
         </ul>
       </div>

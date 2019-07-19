@@ -6,9 +6,7 @@ function About() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.col1}>
-        <div>
-          <h2>ABOUT ME</h2>
-        </div>
+        <h2>ABOUT ME</h2>
         <p>
           I live for technology, working with great people and building things
           that make a difference in people’s lives.

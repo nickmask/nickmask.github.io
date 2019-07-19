@@ -42,38 +42,36 @@ function App() {
     "Jest / Enzyme"
   ];
   return (
-    <div className={styles.App}>
-      <div className={styles.container}>
-        <header>
-          <Header />
-        </header>
-        <main>
-          <Headline />
-          <Separator />
-          <About />
-          <Separator />
-          <ListSection
-            title="SKILLS"
-            blurb="I have built my expertise over two careers, lots of meetups and
+    <div className={styles.container}>
+      <header>
+        <Header />
+      </header>
+      <main>
+        <Headline />
+        <Separator />
+        <About />
+        <Separator />
+        <ListSection
+          title="SKILLS"
+          blurb="I have built my expertise over two careers, lots of meetups and
           countless podcasts."
-            list={skills}
-          />
-          <Separator />
-          <ListSection
-            title="TECHNOLOGY"
-            blurb="I have worked with many technologies and am always ready to learn and
+          list={skills}
+        />
+        <Separator />
+        <ListSection
+          title="TECHNOLOGY"
+          blurb="I have worked with many technologies and am always ready to learn and
           use more."
-            list={technology}
-          />
-          <Separator />
-          <WordsToLiveBy />
-          <Separator />
-          <Contact />
-        </main>
-        <footer>
-          <Footer />
-        </footer>
-      </div>
+          list={technology}
+        />
+        <Separator />
+        <WordsToLiveBy />
+        <Separator />
+        <Contact />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
