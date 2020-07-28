@@ -7,7 +7,7 @@ function Headline() {
     <div className={styles.wrapper}>
       <h1>
         I’m Nick. <br />
-        An overally positive traveler, foodie and geek. <br />
+        An overly positive traveler, foodie and geek. <br />
         I’m also a software developer.
       </h1>
     </div>
